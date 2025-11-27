@@ -1,0 +1,32 @@
+body {
+    font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.table-responsive {
+    max-height: 600px;
+}
+
+.pagination .page-link {
+    cursor: pointer;
+    color: #333;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+    color: #000;
+}
+
+/* Chart containers */
+canvas {
+    max-width: 100%;
+}
